@@ -1,0 +1,29 @@
+#mainmenu 
+		{
+		color:#1068CD;
+		margin-left:20%;
+		margin-right:20%;
+		text-align: center; 
+		}
+
+#mainmenu a
+		{
+		text-decoration:none;
+		color: #2073B3;
+		background-color:#1CBE5D;
+		border-width: 1px;
+		border-color: #071A29;
+		padding:5px;
+  		font-weight : bold;
+      border:outset;
+		}
+#mainmenu a:hover
+		{
+		background-color:#00E0C2;
+      }
+#mainmenu li
+		{
+		list-style-type: none;
+		display: inline;
+		padding: 2px;
+		}

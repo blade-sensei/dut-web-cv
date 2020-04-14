@@ -1,0 +1,89 @@
+COYLA
+RT Initiation
+
+Objectif: ecrire une page HTML
+
+On récupére le fichier M1106.tar 
+On tape la commande tar xvf M1106 avec cette commande un crée un répertoire M1106. tar=type archive 
+On va sur ce répertoire pour cela on tape cd M1106
+puis activer le serveur web on fait: ./lancerserveur
+L'adresse  que j'obtient est http://192.168.33.3:8080/
+donc on sait que l'adresse ip est 192.168.33.3
+de plus si on tape hotsname on a le nom de notre machine ici c'est toyota3.
+Maintenant que le serveur est actif on peut visualiser nos pages web les fichier HTML seront placés donc le répertoire M1106/www/html
+
+TRAVAIL A REALISER 
+
+1   On tape gedit et à l'intérieur on tape 
+
+<html>
+      <head>
+         <title> titre du document </title>
+
+      </head>
+
+      <body>
+
+<p>
+
+       Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Duis          ///// ceux qui est dans ce paragraphe n'es pas obligatoire ///
+eros dolor, venenatis vitae, pretium ut, suscipit nec, lectus. Mauris         ////                                                       ///
+urna.Etiam auctor lacus sit amet mauris. Nullam bibendum. Mauris vitae
+leo. Nullam arcu. In nec odio nec tellus blandit tristique. Mauris vel
+l ibero. Class aptent taciti sociosqu ad litora torquent per conubia
+
+      </p>
+
+     </body>
+ 
+<html>
+
+2. On enregistre ce document sous le nom index.html dans le répertoire M1106/www/html 
+
+3 - Deux méthodes pour ouvrir le document avec le navigateur firefox
+    
+
+    - On ouvre firefox on va sur l'onglet Fichier/Ouvrir un Fichier et ensuite on cherche le document qu'on veut ouvrir puis on l'ouvre.
+
+    - 
+
+4 Le titre se trouve tout en haut sur la barre blue ( la meme où les boutons minimiser maximiser et fermer se trouvent)
+5 Le contenu apparait a l'intérieur de la page
+6 Les balises on disparues 
+7 Si on modifie la taille du navigateur il ne se passe rien sur le contenue.
+8 les retours a la ligne sont intérprétes comme des espaces 
+
+2.2 Structurer le CV
+
+1 On écrit les plusieurs rubriques ( formation compétences .. etc )
+2 Je remarque que h1 h2 h3 hx ...  sérvent  à régler la taille des mots.
+3 Je remarque que ul ol servent a décaler et dd a faire un retour a la ligne et décaler la ou le curseur se trouvé la dernier fois
+4 <hr /> On la place a la fin du texte qu'on veut séparer ---> Sert a tracer une ligne 
+5 Strong est une balise de mise en évidence 
+6 Les autres styles logiques utilisables sont:
+<i> italique - met le texte en italique
+<b> bold - met le texte en gras
+<U> underline - Sousligne le texte
+
+7 Pour réaliser un tableu on tape : <TABLE BORDER> <TR><TD> text .. </TD>   Cela va nous permettre d'avoir une colone si on veut deux colones alors on fait a la suite on met  </TD></TR> 
+</TABLE>
+
+8 Pour mettre l'imagine on doit mettre l'emplacement du fichier on tape donc <TR><TD> <img src="img/logoRT.jpg"> </img> </TD> 
+img correspont a un fichier image , src = source et l'emplacement= img/logoRT.jpg
+
+9 Pour mettre les cordonnés on remplis juste la colonne
+
+</TD> <TD>Prenom NOM :Juan Carlos COYLA <br />Adresse: 44 Rue St Charles 78000 Versailles <br /> Tel: 06 37 08 26 46 <br /> Date de naissance: 12/09/1993 </TD></TR> 
+
+On met des retours a la ligne <br /> pour qu'ils ne soient pas collés les un après les autres.
+
+
+
+
+
+
+
+
+
+
+

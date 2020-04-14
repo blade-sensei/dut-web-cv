@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+       <meta charset="UTF-8"> 
+       <link rel='stylesheet' type='text/css' href='css/style.css'/>
+     
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CV Coyla Juan Carlos</title>	
+    
+</head>
+<body>
+	<h1>Coyla Juan Carlos</h1>
+	<table border="0px">
+	<tr>
+
+		<td align="left">
+			<img src="img/logoRT.jpg" alt="PHOTO" />
+		</td>
+		<td align="right">
+			<address>
+				44 rue Saint Charles <br />
+				78000 Versailles
+ 
+			</address>
+			<br />
+
+			<a href="mailto:Coyla.JuanCarlos@ens.uvsq.fr">Coyla.JuanCarlos@ens.uvsq.fr</a>
+		</td>
+	</tr>
+	</table>
+        
+        
+        <ul id="mainmenu">
+        
+                        
+				<li><a href="#formation">Formation</a></li>
+				<li><a href="#competence">Compétences</a></li>
+				<li><a href="#experience">Expérience professionnelle</a></li>
+				<li><a href="#divers">Divers</a></li>
+	</ul >
+  	 	
+  	<hr color="#3052A2" >
+
+  	<ul id="contenu" class="listcoloree">
+  		<li>
+  			<h3><a name="formation">Formation</a></h3> <br/ >
+  			<ol>
+
+  				<li> 
+  					<p>
+  					   <strong> DUT Réseaux et Télécommunication </strong> en 
+  					   préparation à l'<em>IUT de Vélizy</em>.
+  					</p>
+  				</li>
+  				<li>
+  					<p>
+  					    Bacalauréat série Sciences et Technologies de l'Information et du 
+  						Développement Durable (STI2D) - option <strong>Systèmes d'Information
+  						et Numérique</strong>. 
+  					</p>
+
+  				</li>
+  			</ol>
+  			<hr color="#3052A2" /> 			
+  		</li>
+  		<li>
+  			<h3><a name="competence">Compétences</a></h3><br/ >
+  			<ul id="contenu" class="listcoloree">
+  				<li>
+  				 	<p>Installation et configuration de réseaux locaux 
+  				 	(Ethernet, WiFi, switch, routeur, IPv4, DHCP, systèmes d'exploitation).</p>
+
+  				</li>
+  				<li>
+  					<p>
+  						Installation et configuration d'un système de téléphonie 
+  						(commutation, signalisation, services, normes de cablage, TOIP, PABX, IPBX).
+  					</p>
+  				</li>
+  				<li>
+  					<p>
+  						Connaissance des différentes architectures réseaux 
+  						(modèles en couches, protocoles, topologies, normalisation).
+  					</p>
+
+  				</li>
+  				<li>
+  					<p>
+  						Utilisation des systèmes d'exploitation Micosoft Windows et 
+  						UNIX/LINUX (manipulation de fichiers, droits d'accès, 
+  						manipulation de processus, écriture de scripts).
+  					</p>
+  				</li>	
+  				<li>
+  					<p>
+  						Connaissance des technologies web de base (Client-Serveur, HTML, CSS).
+  					</p>
+
+  				</li>
+				<li>
+					<p>
+						Automatisation de tâches et programmation d'algorithmes simples 
+						(bash, langage C, JAVA).
+					</p>
+				</li>
+  			</ul>
+  			<hr color="#3052A2">			
+  		</li>
+  		
+  		<li>
+
+  			<h3><a name="experience professionnelle">Expérience professionnelle</a></h3><br/ > 
+  			
+				<ol>
+  				
+					<li><em>2009</em>
+  					<p>
+  						Stage de deux semaine Gendarmerie : découverte des métiers dans la Gendarmerie. 
+  					</p>
+  				</li>
+  				<li><em>2011</em>
+
+  					<p>
+  						Job d'été : Agent d'entretien Maison de retraite Providance-Versailles
+  					</p>
+  				</li>
+  			</ol>
+  		  	 	<hr color="#3052A2" />				
+  		</li>
+			<ul id="contenu" class="listcoloree">  		
+			<li>
+  			<h3><a name="divers">Divers</a></h3><br/ >
+
+  			<p>
+  				Participation au développement d'une carte entrées-sorties et du logiciel <strong>Domotic+</strong> 
+  				pour ordinateurs, téléphones mobiles et tablettes. Ce matériel et ce logiciel permettent
+  				de programmer divers équipements de la maison (téléviseur, magnétoscope numérique, 
+  				chaudière, système d'alarme, etc). 
+  				<em>
+  				  Ce système est en vente à compte d'auteur depuis 2010.
+  				</em>			
+  			</p>
+  		</li>  		  		
+  	</ul>
+  	<p>
+
+  </p>
+</body>
+</html>

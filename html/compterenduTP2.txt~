@@ -1,0 +1,152 @@
+Comptrendu2 
+Coyla 
+RT B2
+
+Travail à réaliser 
+2.1 Création référencement du CSS
+
+1 on crée un fichier style.css avec la commande gedit: gedit style.ss
+2 On écrit : 
+body {
+      margin:10px; padding: 2em;
+      background:white
+      color: #302B3C
+      font: 75%/1.33 Verdana, sans serif;
+      text-align:left;
+
+}
+
+
+3 Lignes:
+  
+  margin:10px; padding: 2em;   : Definissent les marges intérieurs et extérieurs
+  
+  background:white;            : Definit la couleur d'arrière plan ici white = blanc
+ 
+  color: #302B3C               : Definit la couleur du texte 
+
+  font: 75%/1.33 Verdana, sans serif;       : la taille de police et le degrès de la couleur noir ( sur le texte )
+
+  text-align:left;             : Specifie l'alignement horizontal du text ici left ( alignement gauche )
+
+4 on ajoute link rel='stylesheet' type='text/css' href='../css/style.css'/>   à l'entete.
+
+5 On affiche la page de deux façons différentes :
+
+6  Open file : Notre page a changé et a pris les commandes écrites sur le fichier style.css
+  Avec l'adresse sur serveur : Notre page html n'a pas changé
+
+ Conclusion
+
+7 Pour avoir le lien symbolique il faut faire la commande: ln -s ../css css
+ et on le fait dans le répertoire html !!!! pour remonter et puis redescendre vers css
+
+
+
+2.2 Styles génériques
+
+  1 Pour modifier la couleur on va sur le fichier css et on fait 
+
+   h1  {
+     color:#3052A2;
+
+     }
+
+     comme ça tout les titre h1 vont avoir la couleur blue
+
+  2 Pour appliquer la modification de taille de police ( 200% sur le corp de la page) on doit modifier le fichier css 
+
+    dans le body 
+
+   on modifie 
+   font: 75%/1.33 Verdana, sans serif;     on va remplacer 75 par 200
+  
+  3 On fait pareil que pour h1 mais cette fois ci on met la commande dans une acolade h3 { .. }
+
+  4 Pour modifier le tyle des tableau pour qu'il occupe 100% de la page, sans marges et bordu on tape 
+
+   table{
+   width:100%;
+     border-style=none;
+     margin:0;
+     padding:0;
+     border-collapse:collapse;
+    {
+
+  5 Dans le fichier index.html il faut modifier <table border="1px">  On remplace 1 par 0
+
+  6 Pour moodifier la couleur des hr on va sur le fichier index.html et on tape 
+
+    <hr color="#3052A2" /> Cela va mettre le hr en couleur blue	
+ 
+2.3 Styles identifiés
+
+1 Pour attribuer un nom a une balise: ici on veut attribuer le nom "mainname" a la balise ul pour cela il faut
+ dans le fichier index.html:   
+<ul>
+                        
+			<li><a href="#formation">Formation</a></li>
+			<li><a href="#competence">Compétences</a></li>
+
+			<li><a href="#experience">Expérience professionnelle</a></li>
+			<li><a href="#divers">Divers</a></li>
+	</ul>
+
+
+<ul id="mainmenu">    ///////// On rajoute donc id="mainmenu"
+ 
+2 Pour faire des modifications sur "mainmenu" sur css il faut faire #mainmenu { modifications }
+ 
+ Pour mettre a gauche mainmenu et qu'il occupe 60% de la page on fait don: 
+ 
+#mainmenu 
+  {
+width:80%;
+text-align:center
+  }
+
+3.4 Normalement on devrait utiliser la commande display pour les mettre en ligne mais cela ne marche pas sur mon css peut etre que 
+  c'est un problème de navigateur comme j'ai vu sur internet.
+5 Pour cette question j'ai pas trouvé mais je pense qu'il faudrait le faire avec la commande text align:float
+
+
+6 Pour les mettre sur un cadre et les mettre en couleur on fait cette commande sur css
+  a {
+	text-decoration:none;
+	color: 663300;
+	border-width:1px;
+	border-style:solid;
+	border-color:#DE6A26;
+	background:#DE6A26; 
+}
+
+
+2.4 Du style et de la classe
+
+1 et 2  On met cette commande sur css 
+a {
+	text-decoration:none;
+	color: 663300;
+	border-width:1px;
+	border-style:solid;
+	border-color:#DE6A26;
+	background:#DE6A26; 
+}
+
+
+
+
+
+ 
+
+  
+
+
+
+
+
+ 
+
+
+
+

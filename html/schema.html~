@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+       <meta charset="UTF-8"> 
+       <link rel='stylesheet' type='text/css' href='css/schema.css'/>
+     
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Schéma fonctionel d'un PC </title>	
+    
+</head>
+
+	<body>
+
+			<h1>Schéma fonctionel d'un PC</h1>
+			<img src="img/Schema.JPG" alt="PHOTO" width="100%" align="middle" usemap=#map />
+			<map name='map'>
+			<area shape="rect" coords="136,244,283,304" href="index1.html">
+			<area shape="rect" coords="391,178,601,228" href="memoire">
+			<area shape="rect" coords="389,263,601,331" href="pcu">
+			<area shape="rect" coords="374,376,613,433" href="bot">
+			<area shape="rect" coords="702,235,851,299" href="right">
+
+
+
+	</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+		<meta charset="UTF-8">
+		<link rel='stylesheet' type='text/css' href='css/miniproject.css'/>
+		
+		
+
+<head>
+		
+		<title>MiniProject</title>	
+		
+</head>
+<body background>
+
+	
+        <ul id="mainmenu">
+        
+                        
+				<li><a href="index1.html">CV Coyla</a></li>
+				<li><a href="pc.html">Le Type PC</a></li>
+				<li><a href="schema.html">Schéma fonctionnel d'un PC</a></li>
+				<li><a href="#divers">Divers</a></li>
+	</ul id="contenu" class="listcoloree">
+
+
+
+</body>
+</html>
+
+
+
+	
+	
